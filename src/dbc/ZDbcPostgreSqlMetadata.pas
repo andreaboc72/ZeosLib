@@ -3324,7 +3324,7 @@ begin
         + 'a.attnum,' {attnum_index}
         + 'NULL AS adsrc,' {adsrc_index}
         + 'NULL AS description, ' {description_index}
-        + 'NULL::text AS cnspname' {cnspname_index}
+        + 'NULL::text AS cnspname,' {cnspname_index}
         + 'NULL::OID as domain_oid,'
         + 'NULL::TEXT as attidentity '
         + 'FROM pg_class c, pg_attribute a';
